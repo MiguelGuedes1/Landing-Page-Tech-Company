@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dongle&family=Josefin+Sans&family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Landing Page</title>
 </head>
@@ -11,30 +14,109 @@
     <nav class="navbar">
         
         <ul>
-            <a href="">Home</a>
-            <a href="">Products</a>
-            <a href="">About us</a>
-            <a href="">Contact</a>
+            <a href="#pag1">Home</a>
+            <a href="#products">Products</a>
+            <a href="#about-us">About us</a>
+            <a href="#contact">Contact</a>
         </ul>
     </nav>
-    <section id="mainpage">
+<section id="pag1">
 
-        <div class="titulosmainpage">
-            <h1>QuantumPhone</h1>
-            <h3>Empower your life with the power of Quantum technology</h3>
-            <h3>Where innovation meets style</h3>
-            <button>Join the Quantum Revolution</button>
+ 
+        <div class="main">
+            <div class="titulosmainpage">
+                <h1>QuantumPhone</h1>
+                <h3>Empower your life with the power of Quantum technology</h3>
+                <h4>Where innovation meets style</h4>
+                <button class="botao">Join the Quantum Revolution</button>
+
+            </div>
+
+            <div class="imagemmain">
+                <img src="imagens/imagemcapa.png" alt="foto">
+            </div>
 
         </div>
+</section>
 
-        <div class="imagemmain">
-            <img src="imagens/imagemcapa.png" alt="foto">
-        </div>
+<section id="products">
+            <h1>Best sellers</h1>
+            <div class="primeirotelemovel">
+                <img class="phones" src="imagens/phone1.png" alt="phone1">
+                <span class="caixadescricao">
+                  <ul>
+                    <li>Stunning 6.7-inch AMOLED display</li>
+                    <li>Powerful Snapdragon 888 processor</li>
+                    <li>12GB of RAM for lightning-fast performance</li>
+                    <li>State-of-the-art triple camera system</li>
+                    <li>Advanced security features for added protection</li>
+                    <li>5G connectivity for fast and reliable connections</li>
+                    <li>Capture life's greatest moments in stunning detail</li>
+                    <li>Experience the future of smartphones with the QuantumPhone</li>
+                  </ul>
+                </span>
+              </div>
 
-    
-    
-    
-    </section>
+        <div class="primeirotelemovel">
+            <img class="phones" src="imagens/phone2.png" alt="phone2">
+            <span class="caixadescricao">
+              <ul>
+                <ul>
+                    <li>5.8-inch OLED display with HDR</li>
+                    <li>Powerful A14 Bionic chip</li>
+                    <li>4GB of RAM for smooth multitasking</li>
+                    <li>Dual-camera system with Night mode and Deep Fusion</li>
+                    <li>Face ID for secure authentication</li>
+                    <li>4K Dolby Vision HDR recording</li>
+                    <li>iOS 15 with new features and updates</li>
+                    <li>Water and dust resistant (IP68 rating)</li>
+                  </ul>
+              </ul>
+            </span>
+          </div>
+
+          <div class="primeirotelemovel">
+            <img class="phones" src="imagens/telemovel2.0.webp" alt="phone3">
+            <span class="caixadescricao">
+              <ul>
+                <li>Compact and sleek design for easy handling</li>
+                <li>Powerful A14 Bionic chip for lightning-fast performance</li>
+                <li>6.1-inch Liquid Retina display for stunning visuals</li>
+                <li>Dual-camera system with Night mode for low-light photography</li>
+                <li>Face ID for secure authentication and Apple Pay</li>
+                <li>Supports 5G connectivity for fast and reliable connections</li>
+                <li>All-day battery life to keep up with your busy schedule</li>
+              </ul>
+            </span>
+          </div>
+</section>
+
+<section id="about-us">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>We are a team of passionate tech enthusiasts who believe in the power of innovation to transform the world. Our mission is to create cutting-edge products that push the boundaries of what's possible and help people stay connected in new and exciting ways.</p>
+      <p>At our core, we believe in the values of quality, design, and user experience. We strive to create products that not only meet but exceed the expectations of our customers, and we're constantly exploring new technologies and ideas to make that happen.</p>
+      <p>Whether you're a long-time customer or just discovering our brand for the first time, we're here to help you stay connected and get the most out of your technology. Thank you for choosing us, and we look forward to serving you for years to come.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="containercontact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
 
     
 
